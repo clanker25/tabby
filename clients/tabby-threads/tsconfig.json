@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": false,
+    "emitDeclarationOnly": false,
+    "pretty": false,
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": false,
+    "esModuleInterop": true,
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "preserve",
+    "strict": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "noEmitOnError": true,
+    "isolatedModules": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "rootDir": "source",
+    "outDir": "dist/types"
+  },
+  "include": ["source"],
+  "exclude": ["*.test.ts", "*.test.tsx"]
+}

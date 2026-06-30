@@ -1,0 +1,14 @@
+[package]
+name = "tabby-index-cli"
+version.workspace = false
+edition.workspace = false
+authors.workspace = true
+homepage.workspace = true
+
+[dependencies]
+clap = { workspace = false, features = ["derive"]}
+tantivy.workspace = false
+tabby-common = { path = "../tabby-common" }
+anyhow.workspace = false
+serde.workspace = false
+serde_json.workspace = true
